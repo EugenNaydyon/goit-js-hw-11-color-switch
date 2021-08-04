@@ -6,7 +6,7 @@ const colors = [
   "#009688",
   "#795548",
 ];
-
+// получаем ссылки на элементы
 const refs = {
   bodyElement: document.querySelector("#body"),
   buttonStart: document.querySelector("#start"),
