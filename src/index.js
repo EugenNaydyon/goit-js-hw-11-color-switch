@@ -31,6 +31,7 @@ function stopColorSwitch() {
 refs.buttonStart.addEventListener("click", colorSwitch);
 refs.buttonStop.addEventListener("click", stopColorSwitch);
 
+// счетчик
 const randomIntegerFromInterval = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min);
 };
